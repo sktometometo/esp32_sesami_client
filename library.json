@@ -1,0 +1,30 @@
+{
+    "name": "ESP32SesamiClient",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": "",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/sktometometo/esp32_sesami_client"
+    },
+    "authors":
+    [
+      {
+        "name": "Koki Shinjo",
+        "email": "sktometometo@gmail.com",
+        "url": "https://github.com/sktometometo",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/sktometometo/esp32_sesami_client",
+    "dependencies": {
+      "ownername/print": "~1.3.0",
+      "obsttube/AES_CMAC": "1.0.0",
+      "operatorfoundation/Crypto": "0.4.0",
+      "bblanchon/ArduinoJson": "6.21.3"
+    },
+    "frameworks": "arduino",
+    "platforms": "espressif32"
+  }
