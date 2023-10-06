@@ -1,5 +1,5 @@
-#ifndef SESAMI_UTIL_H
-#define SESAMI_UTIL_H
+#ifndef ESP32SESAMICLIENT_H
+#define ESP32SESAMICLIENT_H
 
 #include "esp_log.h"
 
@@ -192,4 +192,4 @@ std::optional<String> get_sesami_history(String device_uuid, String api_key)
     }
 }
 
-#endif // SESAMI_UTIL_H
+#endif // ESP32SESAMICLIENT_H
